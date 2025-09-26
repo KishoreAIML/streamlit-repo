@@ -19,7 +19,8 @@ st.error("Error")
 exp = ZeroDivisionError("Trying to divide by Zero")
 st.exception(exp)
 
-image = Image.open("https://github.com/KishoreAIML/streamlit-repo/blob/main/go.png")
+image = Image.open("go.png")
 st.image(image , width = 200)
+
 
 
