@@ -22,5 +22,10 @@ st.exception(exp)
 image = Image.open("go.png")
 st.image(image , width = 200)
 
+# Display a checkbox with the label 'Show/Hide'
+if st.checkbox("Show/Hide"):
+    # Show this text only when the checkbox is checked
+    st.text("Showing the widget")
+
 
 
